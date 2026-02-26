@@ -2,6 +2,7 @@
     import phone1 from "$lib/assets/phone1.png"
     import phone2 from "$lib/assets/phone2.png";
     import laptop1 from "$lib/assets/laptop1.png"
+    import icon from "$lib/assets/icon.png"
 </script>
 
 <!-- Hero -->
@@ -19,8 +20,11 @@
         </div>
     </div>
     <!-- Hero Media -->
-    <div class="md:w-1/2 w-full bg-[var(--color-bg)] h-screen overflow-hidden">
-        
+    <div class="md:w-1/2 w-full bg-[var(--color-bg)] h-screen flex items-center justify-center overflow-hidden">
+        <div class="rounded-full bg-[var(--color-accent)] p-6 flex items-center justify-center
+            bg-[linear-gradient(10deg,var(--color-accent)_0%,var(--color-accent)_50%,var(--color-accent-light)_100%)]">
+            <img src={icon} alt="Icon" class="w-32 h-32 object-contain"/>
+        </div>
     </div>
 </section>
 
@@ -36,7 +40,7 @@
         <p class="text-xs tracking-[0.2em] uppercase opacity-60">Curated Tech</p>
         <h3 class="text-3xl md:text-4xl font-semibold">Steward Laptop</h3>
         <p class="text-lg md:text-xl opacity-80">
-            Sleek and refined. Serving all your needs, elegently.
+            Sleek and refined. Serving all your needs in a most exquisite fashion.
         </p>
     </div>
     <div class="w-24 h-1 bg-[var(--color-accent)] rounded-full mt-4"></div>

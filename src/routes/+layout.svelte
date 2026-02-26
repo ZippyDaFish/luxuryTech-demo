@@ -44,3 +44,9 @@
 </header>
 
 {@render children()}
+
+<footer class="flex justify-center gap-8">
+	<a href="https://www.vecteezy.com/free-vector/background">Icon Vector by Vecteezy</a>
+	<p>Laptop by Unsplash</p>
+	<p>Phones Images by Freepik</p>
+</footer>
