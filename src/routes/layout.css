@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+:root {
+    --color-primary: #0A0A0A;
+    --color-primary-hover: #1A1A1A;
+    --color-accent: #D4AF37;
+
+    --color-bg: #0A0A0A;
+    --color-surface: #1A1A1A;
+    --color-text: #FFFFFF;
+    --color-text-muted: #C4C4C4;
+
+    --radius-md: 6px;
+}
+
+body {
+    font-family: Helvetica, Arial;
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+h1, h2, h3, h4 {
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    color: var(--color-accent);
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: white;
+}
