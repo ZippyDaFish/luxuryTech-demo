@@ -105,9 +105,55 @@
 
 <!-- Product Lineup -->
 <section class="w-full min-h-screen p-16 flex flex-col items-center bg-[var(--color-bg)]">
-    <h2 class="text-3xl mb-10">See Our Other Products</h2>
+    <h2 class="text-3xl md:text-4xl font-semibold mb-10 text-[var(--color-surface)]">See Our Other Products</h2>
 
-    <div class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Product Card 1 -->
+        <div class="bg-[var(--color-surface)] rounded-2xl shadow-xl overflow-hidden flex flex-col items-center text-center p-6 hover:scale-105 transition-transform duration-300">
+            <img src={phone1} alt="Steward Mini" class="w-full h-64 object-contain mb-4 drop-shadow-lg"/>
+            <h3 class="text-xl font-semibold mb-2">Steward Mini</h3>
+            <p class="text-sm opacity-70 mb-3">Compact and fast.</p>
+            <ul class="text-xs opacity-60 space-y-1 list-disc list-inside">
+                <li>One-hand comfort</li>
+                <li>Fast wireless charging</li>
+                <li>Ceramic shield body</li>
+            </ul>
+        </div>
 
+        <!-- Product Card 2 -->
+        <div class="bg-[var(--color-surface)] rounded-2xl shadow-xl overflow-hidden flex flex-col items-center text-center p-6 hover:scale-105 transition-transform duration-300">
+            <img src={phone2} alt="Sommelier Pro" class="w-full h-64 object-contain mb-4 drop-shadow-lg"/>
+            <h3 class="text-xl font-semibold mb-2">Sommelier Pro</h3>
+            <p class="text-sm opacity-70 mb-3">Professional-grade photography.</p>
+            <ul class="text-xs opacity-60 space-y-1 list-disc list-inside">
+                <li>Triple-lens camera</li>
+                <li>Advanced low-light capture</li>
+                <li>Pro-grade color calibration</li>
+            </ul>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="bg-[var(--color-surface)] rounded-2xl shadow-xl overflow-hidden flex flex-col items-center text-center p-6 hover:scale-105 transition-transform duration-300">
+            <img src={phone2} alt="Aurora X1" class="w-full h-64 object-contain mb-4 drop-shadow-lg"/>
+            <h3 class="text-xl font-semibold mb-2">Valet 3</h3>
+            <p class="text-sm opacity-70 mb-3">Streamlined and minimalist.</p>
+            <ul class="text-xs opacity-60 space-y-1 list-disc list-inside">
+                <li>6.7″ OLED display</li>
+                <li>Smart battery optimization</li>
+                <li>Precision aluminum frame</li>
+            </ul>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="bg-[var(--color-surface)] rounded-2xl shadow-xl overflow-hidden flex flex-col items-center text-center p-6 hover:scale-105 transition-transform duration-300">
+            <img src={phone1} alt="Concierge Fold" class="w-full h-64 object-contain mb-4 drop-shadow-lg"/>
+            <h3 class="text-xl font-semibold mb-2">Concierge Fold</h3>
+            <p class="text-sm opacity-70 mb-3">Flexible and elegant.</p>
+            <ul class="text-xs opacity-60 space-y-1 list-disc list-inside">
+                <li>Seamless foldable glass</li>
+                <li>Split-screen multitasking</li>
+                <li>Stylus-ready surface</li>
+            </ul>
+        </div>
     </div>
 </section>
