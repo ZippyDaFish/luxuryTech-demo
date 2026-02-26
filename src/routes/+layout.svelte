@@ -20,7 +20,3 @@
 </header>
 
 {@render children()}
-
-<footer class="w-full min-h-[15vh] bg-[var(--color-surface)]">
-
-</footer>
