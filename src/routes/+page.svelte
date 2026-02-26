@@ -17,3 +17,50 @@
         <!-- Add something here -->
     </div>
 </section>
+
+<!-- Product 1 -->
+<section class="w-full min-h-[66vh] p-16 flex flex-col items-center bg-[var(--color-surface)]">
+    <h2 class="text-3xl mb-10"></h2>
+
+    <div class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+    </div>
+</section>
+
+<!-- Product 2 -->
+<section class="min-h-screen flex flex-col md:flex-row">
+    <div class="md:w-1/3 w-full px-6 bg-[var(--color-surface)]">
+
+    </div>
+    <div class="md:w-2/3 w-full px-6 bg-[var(--color-bg)]">
+
+    </div>
+</section>
+
+<!-- Product 3 -->
+<section class="min-h-screen flex flex-col md:flex-row">
+    <div class="md:w-2/3 w-full px-6 bg-[var(--color-bg)]">
+
+    </div>
+    <div class="md:w-1/3 w-full px-6 bg-[var(--color-surface)]">
+
+    </div>
+</section>
+
+<!-- Offer -->
+<section class="w-full min-h-[25vh] p-16 flex flex-col items-center bg-[var(--color-surface)]">
+    <h2 class="text-3xl mb-10"></h2>
+
+    <div class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+    </div>
+</section>
+
+<!-- Product Lineup -->
+<section class="w-full min-h-screen p-16 flex flex-col items-center bg-[var(--color-bg)]">
+    <h2 class="text-3xl mb-10"></h2>
+
+    <div class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+    </div>
+</section>
