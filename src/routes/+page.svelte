@@ -1,6 +1,7 @@
 <script>
     import phone1 from "$lib/assets/phone1.png"
     import phone2 from "$lib/assets/phone2.png";
+    import laptop1 from "$lib/assets/laptop1.png"
 </script>
 
 <!-- Hero -->
@@ -24,12 +25,21 @@
 </section>
 
 <!-- Product 1 -->
-<section class="w-full min-h-[66vh] p-16 flex flex-col items-center bg-[var(--color-surface)]">
-    <h2 class="text-3xl mb-10"></h2>
+<section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-[var(--color-surface)] space-y-8">
+    <img 
+        src={laptop1} 
+        alt="Laptop" 
+        class="w-2/3 md:w-1/3 max-h-64 object-contain drop-shadow-2xl"
+    />
 
-    <div class="w-full max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-
+    <div class="max-w-2xl text-center space-y-4">
+        <p class="text-xs tracking-[0.2em] uppercase opacity-60">Curated Tech</p>
+        <h3 class="text-3xl md:text-4xl font-semibold">Steward Laptop</h3>
+        <p class="text-lg md:text-xl opacity-80">
+            Sleek and refined. Serving all your needs, elegently.
+        </p>
     </div>
+    <div class="w-24 h-1 bg-[var(--color-accent)] rounded-full mt-4"></div>
 </section>
 
 <!-- Product 2 -->
@@ -100,7 +110,7 @@
             hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:shadow-sm">
         Pre-Order Now
     </a>
-    <div class="w-24 h-1 bg-[var(--color-bg)] rounded-full mt-4 opacity-50"></div>
+    <div class="w-24 h-1 bg-[var(--color-accent)] rounded-full mt-4"></div>
 </section>
 
 <!-- Product Lineup -->
