@@ -4,13 +4,14 @@
     --color-primary: #0A0A0A;
     --color-primary-hover: #1A1A1A;
     --color-accent: #D4AF37;
+    --color-accent-light: #dfcd8f;
 
     --color-bg: #0A0A0A;
     --color-surface: #1A1A1A;
     --color-text: #FFFFFF;
     --color-text-muted: #C4C4C4;
 
-    --radius-md: 6px;
+    --radius-md: 25px;
 }
 
 body {
@@ -22,10 +23,14 @@ body {
 h1, h2, h3, h4 {
     font-family: Helvetica, Arial;
     font-weight: bold;
-    color: var(--color-accent);
+
+    background: linear-gradient(0deg, var(--color-accent), var(--color-accent-light));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .btn-primary {
-    background: var(--color-primary);
-    color: white;
+    background: var(--color-accent);
+    color: var(--color-primary);
 }
